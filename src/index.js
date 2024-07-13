@@ -77,13 +77,13 @@ cartButton.addEventListener('click', () => {
 });
 
 const renderCartItems = () => {
-  cartItemsList.textContent = '';
+  // cartItemsList.textContent = '';
   const cartItems = JSON.parse(localStorage.getItem('cartItems') || '[]');
 
   cartItems.forEach(item => {
     const listItem = document.createElement('li');
     listItem.textContent = item;
-    cartItemsList.append(listItem);
+    // cartItemsList.append(listItem);
   })
 };
 
