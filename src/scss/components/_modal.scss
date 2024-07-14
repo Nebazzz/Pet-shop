@@ -85,6 +85,7 @@
 
   &__cart-item-price {
     grid-area: price;
+    font-size: 16px;
   }
 
   &__btn {
@@ -108,27 +109,44 @@
 
   }
 
-  &__cart-form {
-  }
-
   &__cart-fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    margin-bottom: 16px;
   }
 
   &__cart-legend {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 4px;
   }
 
   &__radio {
+    font-size: 16px;
+    display: block;
   }
 
   &__cart-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__cart-button {
+    border-radius: 40px;
+    padding: 12px 24px;
+    width: 121px;
+    height: 46px;
+    background: $purple;
+    font-weight: 700;
+    font-size: 16px;
+    color: $light;
   }
 
   &__cart-price {
+    font-weight: 700;
+    font-size: 16px;
+    color: $purple;
   }
 }
-
-
-// 40.26
